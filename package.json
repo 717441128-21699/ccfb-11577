@@ -1,0 +1,20 @@
+{
+  "name": "football-scheduler",
+  "version": "1.0.0",
+  "private": true,
+  "description": "二十队双循环联赛赛程编排工具（硬约束满足 + 模拟退火优化 + 冲突诊断）",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "demo": "tsx src/cli.ts generate data/sample-input.json --out out --time 9000",
+    "demo:fail": "tsx src/cli.ts generate data/infeasible-input.json --out out-fail",
+    "test": "vitest run",
+    "check": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

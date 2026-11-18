@@ -1,0 +1,531 @@
+{
+  "leagueName": "Infeasible Demo League",
+  "season": "2026-27",
+  "teams": [
+    {
+      "id": "team_crimson_fc",
+      "name": "红都",
+      "stadiumId": "std_crimson_0",
+      "cityId": "city_red",
+      "european": true
+    },
+    {
+      "id": "team_crimson_united",
+      "name": "红联",
+      "stadiumId": "std_crimson_1",
+      "cityId": "city_red",
+      "european": false
+    },
+    {
+      "id": "team_azure_city",
+      "name": "蓝城",
+      "stadiumId": "std_azure_0",
+      "cityId": "city_blue",
+      "european": true
+    },
+    {
+      "id": "team_azure_wanderers",
+      "name": "蓝游",
+      "stadiumId": "std_azure_1",
+      "cityId": "city_blue",
+      "european": false
+    },
+    {
+      "id": "team_golden_athletic",
+      "name": "金竞技",
+      "stadiumId": "std_golden_0",
+      "cityId": "city_gold",
+      "european": true
+    },
+    {
+      "id": "team_emerald_town",
+      "name": "金流浪",
+      "stadiumId": "std_emerald_0",
+      "cityId": "city_green",
+      "european": false
+    },
+    {
+      "id": "team_onyx_sc",
+      "name": "翠镇",
+      "stadiumId": "std_onyx_0",
+      "cityId": "city_onyx",
+      "european": false
+    },
+    {
+      "id": "team_pearl_dynamo",
+      "name": "翠宾",
+      "stadiumId": "std_pearl_0",
+      "cityId": "city_pearl",
+      "european": false
+    },
+    {
+      "id": "team_violet_real",
+      "name": "曜石",
+      "stadiumId": "std_violet_0",
+      "cityId": "city_violet",
+      "european": false
+    },
+    {
+      "id": "team_amber_kings",
+      "name": "珍珠迪纳摩",
+      "stadiumId": "std_amber_0",
+      "cityId": "city_amber",
+      "european": false
+    },
+    {
+      "id": "team_teal_harbor",
+      "name": "紫罗兰皇家",
+      "stadiumId": "std_teal_0",
+      "cityId": "city_teal",
+      "european": false
+    },
+    {
+      "id": "team_silver_lakeside",
+      "name": "琥珀君王",
+      "stadiumId": "std_silver_0",
+      "cityId": "city_silver",
+      "european": false
+    },
+    {
+      "id": "team_coral_rangers",
+      "name": "青港",
+      "stadiumId": "std_coral_0",
+      "cityId": "city_coral",
+      "european": false
+    },
+    {
+      "id": "team_ivory_sporting",
+      "name": "银湖",
+      "stadiumId": "std_ivory_0",
+      "cityId": "city_ivory",
+      "european": false
+    },
+    {
+      "id": "team_indigo_deportivo",
+      "name": "珊瑚骑兵",
+      "stadiumId": "std_indigo_0",
+      "cityId": "city_indigo",
+      "european": false
+    },
+    {
+      "id": "team_jade_legion",
+      "name": "象牙体育",
+      "stadiumId": "std_jade_0",
+      "cityId": "city_jade",
+      "european": false
+    },
+    {
+      "id": "team_cobalt_mariners",
+      "name": "靛蓝拉科",
+      "stadiumId": "std_cobalt_0",
+      "cityId": "city_cobalt",
+      "european": false
+    },
+    {
+      "id": "team_bronze_peak",
+      "name": "翡翠军团",
+      "stadiumId": "std_bronze_0",
+      "cityId": "city_bronze",
+      "european": false
+    },
+    {
+      "id": "team_ruby_rovers",
+      "name": "钴蓝海员",
+      "stadiumId": "std_ruby_0",
+      "cityId": "city_ruby",
+      "european": false
+    },
+    {
+      "id": "team_slate_albion",
+      "name": "青铜峰",
+      "stadiumId": "std_slate_0",
+      "cityId": "city_slate",
+      "european": false
+    }
+  ],
+  "stadiums": [
+    {
+      "id": "std_crimson_0",
+      "name": "Crimson FC Stadium",
+      "blockedRounds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "id": "std_crimson_1",
+      "name": "Crimson United Stadium",
+      "blockedRounds": []
+    },
+    {
+      "id": "std_azure_0",
+      "name": "Azure City Stadium",
+      "blockedRounds": [
+        12
+      ]
+    },
+    {
+      "id": "std_azure_1",
+      "name": "Azure Wanderers Stadium",
+      "blockedRounds": []
+    },
+    {
+      "id": "std_golden_0",
+      "name": "Golden Athletic Stadium",
+      "blockedRounds": []
+    },
+    {
+      "id": "std_emerald_0",
+      "name": "Emerald Town Stadium",
+      "blockedRounds": []
+    },
+    {
+      "id": "std_onyx_0",
+      "name": "Onyx SC Stadium",
+      "blockedRounds": []
+    },
+    {
+      "id": "std_pearl_0",
+      "name": "Pearl Dynamo Stadium",
+      "blockedRounds": []
+    },
+    {
+      "id": "std_violet_0",
+      "name": "Violet Real Stadium",
+      "blockedRounds": []
+    },
+    {
+      "id": "std_amber_0",
+      "name": "Amber Kings Stadium",
+      "blockedRounds": []
+    },
+    {
+      "id": "std_teal_0",
+      "name": "Teal Harbor Stadium",
+      "blockedRounds": []
+    },
+    {
+      "id": "std_silver_0",
+      "name": "Silver Lakeside Stadium",
+      "blockedRounds": []
+    },
+    {
+      "id": "std_coral_0",
+      "name": "Coral Rangers Stadium",
+      "blockedRounds": []
+    },
+    {
+      "id": "std_ivory_0",
+      "name": "Ivory Sporting Stadium",
+      "blockedRounds": []
+    },
+    {
+      "id": "std_indigo_0",
+      "name": "Indigo Deportivo Stadium",
+      "blockedRounds": []
+    },
+    {
+      "id": "std_jade_0",
+      "name": "Jade Legion Stadium",
+      "blockedRounds": []
+    },
+    {
+      "id": "std_cobalt_0",
+      "name": "Cobalt Mariners Stadium",
+      "blockedRounds": []
+    },
+    {
+      "id": "std_bronze_0",
+      "name": "Bronze Peak Stadium",
+      "blockedRounds": []
+    },
+    {
+      "id": "std_ruby_0",
+      "name": "Ruby Rovers Stadium",
+      "blockedRounds": []
+    },
+    {
+      "id": "std_slate_0",
+      "name": "Slate Albion Stadium",
+      "blockedRounds": []
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "date": "2026-08-15",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 2,
+      "date": "2026-08-22",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 3,
+      "date": "2026-08-29",
+      "isWeekend": false,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 4,
+      "date": "2026-09-05",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 5,
+      "date": "2026-09-12",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 6,
+      "date": "2026-09-19",
+      "isWeekend": false,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 7,
+      "date": "2026-09-26",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 8,
+      "date": "2026-10-03",
+      "isWeekend": true,
+      "hasEuropeanMidweek": true
+    },
+    {
+      "round": 9,
+      "date": "2026-10-10",
+      "isWeekend": false,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 10,
+      "date": "2026-10-17",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 11,
+      "date": "2026-10-24",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 12,
+      "date": "2026-10-31",
+      "isWeekend": false,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 13,
+      "date": "2026-11-07",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 14,
+      "date": "2026-11-14",
+      "isWeekend": true,
+      "hasEuropeanMidweek": true
+    },
+    {
+      "round": 15,
+      "date": "2026-11-21",
+      "isWeekend": false,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 16,
+      "date": "2026-11-28",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 17,
+      "date": "2026-12-05",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 18,
+      "date": "2026-12-12",
+      "isWeekend": false,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 19,
+      "date": "2026-12-19",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 20,
+      "date": "2026-12-26",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 21,
+      "date": "2027-01-02",
+      "isWeekend": false,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 22,
+      "date": "2027-01-09",
+      "isWeekend": true,
+      "hasEuropeanMidweek": true
+    },
+    {
+      "round": 23,
+      "date": "2027-01-16",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 24,
+      "date": "2027-01-23",
+      "isWeekend": false,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 25,
+      "date": "2027-01-30",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 26,
+      "date": "2027-02-06",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 27,
+      "date": "2027-02-13",
+      "isWeekend": false,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 28,
+      "date": "2027-02-20",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 29,
+      "date": "2027-02-27",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 30,
+      "date": "2027-03-06",
+      "isWeekend": false,
+      "hasEuropeanMidweek": true
+    },
+    {
+      "round": 31,
+      "date": "2027-03-13",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 32,
+      "date": "2027-03-20",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 33,
+      "date": "2027-03-27",
+      "isWeekend": false,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 34,
+      "date": "2027-04-03",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 35,
+      "date": "2027-04-10",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 36,
+      "date": "2027-04-17",
+      "isWeekend": false,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 37,
+      "date": "2027-04-24",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    },
+    {
+      "round": 38,
+      "date": "2027-05-01",
+      "isWeekend": true,
+      "hasEuropeanMidweek": false
+    }
+  ],
+  "derbies": [
+    {
+      "homeTeamId": "team_crimson_fc",
+      "awayTeamId": "team_crimson_united",
+      "bothLegs": true
+    },
+    {
+      "homeTeamId": "team_azure_city",
+      "awayTeamId": "team_azure_wanderers",
+      "bothLegs": false
+    },
+    {
+      "homeTeamId": "team_golden_athletic",
+      "awayTeamId": "team_ruby_rovers",
+      "bothLegs": false
+    },
+    {
+      "homeTeamId": "team_emerald_town",
+      "awayTeamId": "team_onyx_sc",
+      "bothLegs": false
+    },
+    {
+      "homeTeamId": "team_violet_real",
+      "awayTeamId": "team_amber_kings",
+      "bothLegs": false
+    }
+  ],
+  "seed": 42
+}
